@@ -21,7 +21,7 @@ public class Main {
 
         B2525 solution = new B2525();
         int[] answer = solution.solve(a, b, c);
-        System.out.println(answer[0]);
-        System.out.println(answer[1]);
+
+        System.out.printf("%d %d", answer[0], answer[1]);
     }
 }
